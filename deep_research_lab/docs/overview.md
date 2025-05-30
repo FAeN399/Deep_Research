@@ -1,9 +1,16 @@
 # Deep Research Lab Overview
 
-This workspace hosts two collaborators: Repo Man and The Prince. Each has a profile with dedicated research and AI insights.
+This project provides a lightweight space for running AI summarization over research notes.
+Each collaborator maintains a profile with a `research/` folder and matching `ai_insights/` output.
 
-Run the agent to analyze markdown files and generate summaries:
+## Usage
 
-```bash
-python scripts/run_agent.py --profile repo_man
-```
+1. Drop markdown notes in `research/` or `profiles/<name>/research/`.
+2. Run `python scripts/run_agent.py --profile <name>` to generate summaries.
+3. Updated insights appear under the corresponding `ai_insights` folder.
+
+## Contributing
+
+- Keep changes in markdown files small and focused.
+- After editing, run the agent so the summaries stay up to date.
+- Submit your updates through version control.
