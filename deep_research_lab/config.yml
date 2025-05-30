@@ -1,0 +1,8 @@
+project_name: Deep Research Lab
+vector_indexing: true
+summarization_enabled: true
+embedding_model: openai-embedding-v3
+ai_agents:
+  - name: Deep Research
+    role: Recursive analyst
+    triggers: [manual]
